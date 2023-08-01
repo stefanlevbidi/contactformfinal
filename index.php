@@ -16,7 +16,7 @@
 <body>
 
 	<h2>
-		This is a working demo, enter your email and try it out.		
+		This is a  demo, enter your email and try it out.		
 	</h2>
 
 	<!-- I need a container to host my contact form, also this container will act
