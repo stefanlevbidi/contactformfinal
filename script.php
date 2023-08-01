@@ -47,7 +47,7 @@
 		the user who is contacting us. */
 		$headers .= 'From: '. $email . "\r\n";
 		/* Next we are sending the email */
-		$send = mail($to,$subject,$message, $headers);
+		$send = mail($to,$subject,$message,$headers);
 		/* And last we check if the mail() function was successful*/
 		if(!$send){
 			echo "Εrror: Message not send. Please try again";
